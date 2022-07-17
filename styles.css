@@ -165,3 +165,64 @@ body{
     color: white;
     opacity: 0.9;
 }
+
+/*About Banner*/
+
+.aboutbanner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rightaboutbanner{
+    height: 50px;
+    width: 450px;
+    margin: 100px 0px 100px 100px;
+}
+.aboutbannerpix{
+    height: 350px;
+    width: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repe
+    at;
+    
+}
+
+.exptext{
+    font-family: Arial;
+    font-weight: 600;
+    text-align: center;
+   background-color: #56a5eb;
+    padding: 30px;
+
+    font-size: 25px;
+}
+
+.leftaboutbanner{
+    margin: 100px 100px 100px 0px;
+    margin-top: 150px !important;
+}
+
+.abttxt1{
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #56a5eb;
+    font-weight: 600;
+    
+}
+
+.abttxt2{
+    text-transform: capitalize;
+    font-family: Arial;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.abttxt3{
+    color: grey;
+
+    font-family: Arial;
+    text-align: justify;
+    line-height: 25px;
+}
