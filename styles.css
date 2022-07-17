@@ -226,3 +226,104 @@ body{
     text-align: justify;
     line-height: 25px;
 }
+
+.quotebanner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    height: 450px;
+    padding-left: 100px;
+
+}
+.leftquotetext{
+    margin-top: 50px;
+}
+
+.qbtxt1{
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #56a5eb;
+    font-weight: 600;
+}
+
+.qbtxt2{
+    text-transform: capitalize;
+    font-family: Arial;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.qbtxt3{
+    color: grey;
+    font-family: Arial;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.qbtxt4{
+    font-family: Arial;
+    color: #56a5eb;
+    font-size: 40px;
+    font-weight: 900;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.qbtxt5{
+    color: black;
+    font-family: Arial;
+    text-align: justify;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rightquotetext{
+    background-color: #56a5eb;
+    margin-right: 120px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quoteform{
+    display: grid;
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
+    justify-content: center;
+}
+
+.quoteform input[type="text"]{
+    height: 50px;
+    width: 300px;
+    padding-left: 30px;
+    border: 0px;
+}
+.quoteform input[type="email"]{
+    padding-left: 30px;
+    border: 0px;
+}
+
+.quoteform input[type="button"
+]{
+    border: 0px;
+    height: 55px;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    font-size: 1em;
+    
+}
+
+.quoteform input[type="button"]:hover{
+    background-color: black;
+    color: white;
+}
