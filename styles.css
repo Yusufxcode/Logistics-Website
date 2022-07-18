@@ -327,3 +327,63 @@ body{
     background-color: black;
     color: white;
 }
+
+service{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.srvtxt{
+    color: #56a5eb;
+    font-family: Arial;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.srvtxt2{
+    text-transform: capitalize;
+    font-family: Arial;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.srvbtntxt{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin: 20px 80px;
+}
+
+.srvbtntxt input[type=button]{
+    height: 60px;
+    width: 250px;
+    background-color: #56a5eb;
+    color: white;
+
+    font-size: 1em;
+    font-weight: 400;
+    border: 0px;
+    margin-bottom: 20px;
+
+}
+
+.btntxt1i{
+    color: grey;
+    font-family: Arial;
+    text-align: center;
+    line-height: 25px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.btnlnk a{
+    color: #56a5eb;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    font-family: Arial;
+    margin-left: 90px;
+}
