@@ -328,7 +328,7 @@ body{
     color: white;
 }
 
-service{
+.service{
     margin-top: 80px;
     margin-bottom: 100px;
 }
@@ -386,4 +386,59 @@ service{
     border-bottom: 1px solid rgb(221, 221, 221);
     font-family: Arial;
     margin-left: 90px;
+}
+
+.choose{
+    background-color: whitesmoke;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.leftchoose{
+    margin-left: 100px;
+    margin-right: 0px;
+}
+
+.chooseimg{
+    height: 550px;
+    width: 100%;
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.rightchoose{
+    margin: 100px 100px 0px 0px;
+}
+
+.rightchtxt1{
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #56a5eb;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.rightchtxt2{
+    text-transform: capitalize;
+    font-family: Arial;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.rightchtxt3{
+    color: grey;
+    font-family: Arial;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.rightchtxt4{
+    color: black;
+    font-size: 1.2em;
+    line-height: 25px;
 }
