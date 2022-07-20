@@ -544,3 +544,45 @@ body{
     font-size: 1em;
     margin-top: 10px;
 }
+.deliveryteam{
+    margin-top: 80px;
+}
+
+.teamviews{
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    margin-top: 30px;
+}
+
+.teamview{
+    position: relative;
+}
+
+.team1{
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.teamnamei{
+    background-color: whitesmoke;
+    padding: 2px;
+    text-align: center;
+    border-bottom: 5px solid #56a5eb;
+}
+
+.teamnamei h3{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.teamnamei h4{
+    color: grey;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
