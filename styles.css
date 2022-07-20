@@ -442,3 +442,105 @@ body{
     font-size: 1.2em;
     line-height: 25px;
 }
+
+.pricingplan{
+    margin-top: 80px;
+
+}
+
+.plans{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px 120px;
+    gap: 2em;
+    height: 470px;
+}
+
+.plan1{
+    background-color: whitesmoke;
+    color: black;
+    
+    text-align: center;
+}
+
+.plan2{
+    background-color: whitesmoke;
+    color: black;
+    
+    text-align: center;
+}
+
+.plan3{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+.plan3i{
+    color: black;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: 900;
+    margin: 20px 0px 0px 0px !important;
+    
+}
+
+.plan3i > sub{
+    color: grey; 
+    font-size: 20px;
+    margin-left: 0px !important;
+    font-weight: 100 !important;
+}
+
+.plan3i > sup{
+    color: grey; 
+    font-size: 20px;
+    font-weight: 100 !important;
+}
+
+.plan3ii{
+   background-color: #56a5eb;
+   color: black;
+   font-size: 25px;
+   font-weight: 700; 
+   font-family: Arial;
+   padding: 25px 0px;
+   margin: 30px 0px;
+   
+}
+
+.plan3iii{
+    color: grey;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+.plan3iv{
+    color: grey;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+.plan3v{
+    color: grey;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+.plan3vi{
+
+    color: grey;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+.planbtn input[type=button]{
+    background-color: #56a5eb;
+    color: white;
+    height: 40px;
+    width: 130px;
+    border: 0px;
+    font-family: Arial;
+    font-size: 1em;
+    margin-top: 10px;
+}
