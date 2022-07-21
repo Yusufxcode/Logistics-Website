@@ -683,3 +683,129 @@ body{
     font-size: 1.1em;
     font-weight: 100;
 }
+
+.footer{
+    background-color: #1F1F2E;
+    height: 300px;
+    margin-top: 80px;
+    padding: 100px 50px 0px 50px ;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.intouchi{
+    color: #56a5eb;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+.intouch .intouchii{
+    color: white;
+    font-size: 1em;
+    font-family: Arial;
+    line-height: 2.5em;
+}
+
+
+.nav2{
+    font-size: 1em;
+    font-family: Arial;
+    line-height: 2em;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1em;
+}
+
+.nav2 a:hover{
+    border-bottom: 1px solid white;
+    color: #56a5eb;
+}
+
+.news{
+    color: white;
+    font-size: 1em;
+    font-family: Arial;
+    margin-bottom: 5px;
+}
+
+.input{
+    display: flex;
+    margin-top:  20px;
+}
+
+.input input[type=text]{
+    height: 60px;
+    width: 370px;
+    padding-left: 30px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.input input[type=button]{
+    background-color: #56a5eb;
+    color: white;
+    height: 60px;
+    width: 100px;
+    border: 0px;
+    font-size: 1em;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.finalfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F1F2E;
+    border-top: 0.1px solid whitesmoke;
+    padding: 20px 50px;
+}
+
+.lfinalfooter{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+
+.lfinalfooterii{
+    font-size: 1em;
+    font-family: Arial;
+    color: white;
+}
+
+.lfinalfooteriii{
+    font-size: 1em;
+    font-family: Arial;
+    color: white;
+}
+
+.lfinalfooteriv{
+    font-size: 1em;
+    font-family: Arial;
+    color: #56a5eb;
+}
+
+.Rfinalfooter{
+    display: flex;
+    gap: 2em;
+}
+
+.Rfinalfooter a{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Arial;
+    color: white;
+}
+
+.Rfinalfooter a:hover{
+    text-decoration: underline;
+    color: #56a5eb;
+}
