@@ -227,10 +227,14 @@ body{
 
 .abttxt3{
     color: grey;
-
     font-family: Arial;
     text-align: justify;
     line-height: 25px;
+}
+
+.abttxt3 a{
+    text-decoration: none;
+    color: #56a5eb;
 }
 
 #quotebanner{
