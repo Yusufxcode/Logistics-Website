@@ -70,15 +70,14 @@ body{
 }
 .nav1{
     display: inline;
-    
+    margin: 35px 10px 54px 10px;
 }
 
-.navs a:hover{
+.navs a:hover {
     padding: 35px 10px 54px 10px;
     background-color: #56a5eb;
     color: white;
 }
-
 
 .quotebtn input[type="button"]{
     height: 45px;
@@ -236,6 +235,8 @@ body{
     color: #56a5eb;
 }
 
+    /*Quotation*/
+
 #quotebanner{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -271,6 +272,7 @@ body{
     text-align: justify;
     line-height: 25px;
     margin-bottom: 30px;
+    width: 500px;
 }
 
 .qbtxt4{
@@ -336,6 +338,13 @@ body{
     background-color: black;
     color: white;
 }
+
+#service{
+    padding-left: 30px;
+    border: 0px;
+}
+
+/*Service Aspect*/
 
 .service{
     margin-top: 80px;
