@@ -476,16 +476,67 @@ body{
     font-size: 20px;
 }
 
-.europe{
+.europe-container{
     width: min(90%, 75rem);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0px auto 70px auto;
+    margin: 40px auto 70px auto;
+    gap: 1em;
+}
+
+
+.europe {
+    border: 2px solid #56a5eb;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.europe:nth-child(even){
+    background-color: whitesmoke;
+}
+
+.asia-container {
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px auto 70px auto;
+    gap: 1em;
 }
 
 .asia {
+    border: 2px solid #56a5eb;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.asia:nth-child(even){
+    background-color: whitesmoke;
+}
+
+.africa-container {
     width: min(90%, 75rem);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0px auto 70px auto;
+    margin: 40px auto 70px auto;
+    gap: 1em;
+}
+
+.africa {
+    border: 2px solid #56a5eb;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.africa:nth-child(even){
+    background-color: whitesmoke;
+}
+
+.cont {
+    color: #56a5eb;
 }

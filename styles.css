@@ -324,8 +324,7 @@ body{
     border: 0px;
 }
 
-.quoteform input[type="button"
-]{
+.quoteform input[type="button"]{
     border: 0px;
     height: 55px;
     background-color: rgb(46, 45, 45);
