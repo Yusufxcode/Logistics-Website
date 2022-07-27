@@ -102,7 +102,7 @@ body{
 .banner{
     width: 100%;
     height: 500px;
-    opacity: 0.7;
+    opacity: 0.6;
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center;
@@ -446,4 +446,46 @@ body{
 .Rfinalfooter a:hover{
     text-decoration: underline;
     color: #56a5eb;
+}
+
+.locationtxt{
+    display: grid;
+    place-items: center;
+}
+
+.cont{
+    display: grid;
+    place-items: center;
+    font-weight: 900;
+    font-size: 40px;   
+}
+
+.address{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.phone{
+    display: flex;
+    gap: 5px;
+}
+
+.phone h6{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.europe{
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px auto 70px auto;
+}
+
+.asia {
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px auto 70px auto;
 }
