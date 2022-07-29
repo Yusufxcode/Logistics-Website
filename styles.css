@@ -380,12 +380,22 @@ body{
     width: 250px;
     background-color: #56a5eb;
     color: white;
-
     font-size: 1em;
     font-weight: 400;
     border: 0px;
     margin-bottom: 20px;
 
+}
+
+.btntxt {
+    border: 2px solid #56a5eb;
+    width: 250px;
+    display: grid;
+    place-items: center;
+}
+
+.btntxt input[type=button]{
+    font-size: 1.2em;
 }
 
 .btntxt1i{
@@ -397,12 +407,21 @@ body{
     margin-bottom: 20px;
 }
 
+.btnlnk {
+    margin-bottom: 20px;
+}
+
 .btnlnk a{
     color: #56a5eb;
     text-decoration: none;
-    border-bottom: 1px solid rgb(221, 221, 221);
     font-family: Arial;
-    margin-left: 90px;
+    text-align: center;
+}
+
+.btnlnk a:hover{
+    background-color: #56a5eb;
+    color: white;
+    padding: 10px;
 }
 
 .choose{
