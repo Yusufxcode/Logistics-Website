@@ -559,6 +559,65 @@ body{
     background-color: whitesmoke;
 }
 
+/*Contact Form*/
+#form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 40%;
+    margin-left: 80px;
+   
+}
+
+#form input[type = text]{
+    height: 40px;
+    padding-left: 30px;
+    border: 2px solid #56a5eb;
+   
+}
+
+#form input[type = text]::placeholder{
+    color: #56a5eb;
+    font-family: arial;
+    font-weight: 600;
+}
+
+#form input[type = email]{
+    height: 40px;
+    padding-left: 30px;
+    border: 2px solid #56a5eb;
+}
+
+#form input[type = email]::placeholder{
+    color: #56a5eb;
+    font-family: arial;
+    font-weight: 600;
+}
+
+#message{
+    padding: 10px 0px 0px 30px;
+    border: 2px solid #56a5eb;
+}
+
+#message::placeholder{
+    color: #56a5eb;
+    font-family: arial;
+    font-weight: 600;
+}
+
+#form input[type=submit]{
+    height: 40px;
+    width: 80px;
+    background-color: #56a5eb;
+    color: white;
+    border: none;
+}
+
+.form h1 {
+    margin-left: 180px;
+
+}
+
 /*footer*/
 .footer{
     background-color: #1F1F2E;
