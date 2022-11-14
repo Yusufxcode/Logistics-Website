@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    overflow-x: hidden;
 }
 
 .flex {
@@ -47,6 +48,19 @@ nav {
     justify-content: center;
 }
 
+.mobile-nav-toggle {
+    display: none;
+}
+
+.sr-only {
+    position: absolute ;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+}
+
 .primary-navigation {
     list-style: none;
     padding: 0;
@@ -72,6 +86,29 @@ nav {
         flex-direction: column;
         padding: min(40vw, 10rem) 3em;
         --gap: 2em;
+        transform: translateX(100%);
+        transition: transform 350ms ease-out;
+    }
+
+    .primary-navigation[data-visible="true"] {
+        transform: translateX(0%);
+    }
+
+    .mobile-nav-toggle {
+        position: absolute;
+        background: transparent;
+        background-image: url(./img/hambuger-menu.png);
+        width:  1.5rem;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+        z-index: 1000;
+        border: none;
+        display: block;
+    }
+
+    .mobile-nav-toggle[aria-expanded="true"] {
+        background-image: url(/img/close-menu.png);
     }
 
 }
